@@ -1,0 +1,593 @@
+@media all and (max-width: 428px){
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.head{
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio{
+    font-family: 'Bangers', cursive;    
+    font-size: 4.6vh;
+}    
+
+
+
+
+
+.body{
+    width: 100vw;
+    height: 200vh;
+    background-color: #CED4DA;
+}
+
+.body1{
+    width: 90vw;
+    height: 50vh;
+    position: relative;
+    left: 5vw;
+    top: 6vh;
+    background-color: white;
+    border-radius: 30px;
+    display: grid;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.body1:hover{
+    background-color: bisque;
+}
+
+.coverpic{
+    position: relative;
+    width: 385px;
+    border-radius: 30px;
+    height: 175px;
+}
+
+.dp{
+    position: relative;
+    border-radius: 100%;
+    bottom: 12vh;
+    left: 12vw;
+    border: 6px solid white;
+} 
+
+.dpname{
+    position: relative;
+    bottom: 11vh;
+    left: 5vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+} 
+
+.dpnameinfo1{
+    position: relative;
+    left: 5vw;
+    bottom: 9vh;
+    font-family: 'Lora', serif;
+    font-size: 1.3em;       
+}
+
+.dpnameinfo2{
+    position: relative;
+    left: 5vw;
+    bottom: 7vh;
+    font-family: 'Lora', serif;
+    font-size: 1.1em;
+}
+
+
+
+
+.body2{
+    width: 90vw;
+    height: 68vh;
+    position: relative;
+    left: 5vw;
+    top: 12vh;
+    background-color: white;
+    border-radius: 30px;
+    display: grid;
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.body2:hover{
+    background-color: bisque;
+}
+
+
+.aboutme{
+    position: relative;
+    left: 5vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    align-self: initial;
+    top: 3vh;
+}
+
+.aboutmecontent{
+    font-family: 'Lora', serif;
+    font-size: 1.17em;
+    position: relative;
+    left: 3vw;
+    top: 2vh;
+}
+
+.skills{
+    position: relative;
+    left: 4vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    top: 3vh;
+}
+
+.htmlskill{
+    position: relative;
+    left: 2vw;
+    top: 2vh;
+    width: 26vw;
+    height: 6vh;
+    background-color: #CED4DA;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: width height background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.htmlskill:hover{
+    width: 28vw;
+    height: 8vh;
+    background-color: bisque;
+}
+
+.cssskill{
+    position: relative;
+    left: 2vw;
+    width: 26vw;
+    height: 6vh;
+    background-color: #CED4DA;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: width height background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.cssskill:hover{
+    width: 28vw;
+    height: 8vh;
+    background-color: bisque;
+}
+
+.javaskill{
+    position: relative;
+    left: 2vw;
+    top: -2vh;
+    width: 50vw;
+    height: 6vh;
+    background-color: #CED4DA;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: width height background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.javaskill:hover{
+    width: 52vw;
+    height: 8vh;
+    background-color: bisque;
+}
+
+.html{
+    font-family: 'Lora', serif;
+    font-size: 1.17em;
+}
+
+.css{
+    font-family: 'Lora', serif;
+    font-size: 1.17em;
+}
+
+.java{
+    font-family: 'Lora', serif;
+    font-size: 1.17em;
+}
+
+
+
+
+.body3{
+    width: 90vw;
+    height: 30vh;
+    position: relative;
+    left: 5vw;
+    top: 18vh;
+    background-color: white;
+    border-radius: 30px;
+    display: grid;   
+    transition-property: background-color;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.body3:hover{
+    background-color: bisque;
+}
+
+.education{
+    position: relative;
+    left: 5vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    top: 3vh;
+}
+
+.educationcontent1{
+    font-family: 'Lora', serif;
+    font-size: 1.17em;
+    position: relative;
+    left: 3vw;
+    top: 7.5vh;
+}
+
+.educationcontent2{
+    font-family: 'Lora', serif;
+    font-size: 1.17em;
+    position: relative;
+    left: 3vw;
+    top: 11.3vh;
+}
+
+.github{
+    position: relative;
+    top: 32vh;
+    left: 16vw;
+}
+
+.insta{
+    position: relative;
+    top: 23vh;
+    left: 28vw;
+}
+
+.linkedin{
+    position: relative;
+    top: 126px;
+    left: 44vw;  
+}
+
+.fb{
+    position: relative;
+    top: 22px;
+    left: 58vw;
+}
+
+.copyright{
+    width: 90vw;
+    height: 5vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 4vh; 
+}
+
+} 
+
+
+
+
+
+@media all and (min-width: 360px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    header{
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+    
+    .head{
+        width: 100vw;
+        height: 10vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .portfolio{
+        font-family: 'Bangers', cursive;    
+        font-size: 4.6vh;
+    }    
+    
+    
+    
+    
+    
+    .body{
+        width: 100vw;
+        height: 202vh;
+        background-color: #CED4DA;
+    }
+    
+    .body1{
+        width: 90vw;
+        height: 50vh;
+        position: relative;
+        left: 5vw;
+        top: 6vh;
+        background-color: white;
+        border-radius: 30px;
+        display: grid;
+        transition-property: background-color;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    .body1:hover{
+        background-color: bisque;
+    }
+    
+    .coverpic{
+        position: relative;
+        width: 324px;
+        border-radius: 30px;
+        height: 160px;
+    }
+    
+    .dp{
+        position: relative;
+        border-radius: 100%;
+        bottom: 12vh;
+        left: 12vw;
+        border: 6px solid white;
+    } 
+    
+    .dpname{
+        position: relative;
+        bottom: 11vh;
+        left: 5vw;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.9em;
+    } 
+    
+    .dpnameinfo1{
+        position: relative;
+        left: 5vw;
+        bottom: 9vh;
+        font-family: 'Lora', serif;
+        font-size: 1.2em;       
+    }
+    
+    .dpnameinfo2{
+        position: relative;
+        left: 5vw;
+        bottom: 7vh;
+        font-family: 'Lora', serif;
+        font-size: 1.1em;
+    }
+    
+    
+    
+    
+    .body2{
+        width: 90vw;
+        height: 68vh;
+        position: relative;
+        left: 5vw;
+        top: 12vh;
+        background-color: white;
+        border-radius: 30px;
+        display: grid;
+        transition-property: background-color;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    .body2:hover{
+        background-color: bisque;
+    }
+    
+    
+    .aboutme{
+        position: relative;
+        left: 5vw;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+        align-self: initial;
+        top: 3vh;
+    }
+    
+    .aboutmecontent{
+        font-family: 'Lora', serif;
+        font-size: 1.2em;
+        position: relative;
+        left: 3vw;
+        top: 2vh;
+    }
+    
+    .skills{
+        position: relative;
+        left: 4vw;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+        top: 3vh;
+    }
+    
+    .htmlskill{
+        position: relative;
+        left: 2vw;
+        top: 2vh;
+        width: 26vw;
+        height: 6vh;
+        background-color: #CED4DA;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-property: width height background-color;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    .htmlskill:hover{
+        width: 28vw;
+        height: 8vh;
+        background-color: bisque;
+    }
+    
+    .cssskill{
+        position: relative;
+        left: 2vw;
+        width: 26vw;
+        height: 6vh;
+        background-color: #CED4DA;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-property: width height background-color;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    .cssskill:hover{
+        width: 28vw;
+        height: 8vh;
+        background-color: bisque;
+    }
+    
+    .javaskill{
+        position: relative;
+        left: 2vw;
+        top: -2vh;
+        width: 54vw;
+        height: 7vh;
+        background-color: #CED4DA;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition-property: width height background-color;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    .javaskill:hover{
+        width: 56vw;
+        height: 9vh;
+        background-color: bisque;
+    }
+    
+    .html{
+        font-family: 'Lora', serif;
+        font-size: 1.17em;
+    }
+    
+    .css{
+        font-family: 'Lora', serif;
+        font-size: 1.17em;
+    }
+    
+    .java{
+        font-family: 'Lora', serif;
+        font-size: 1.17em;
+    }
+    
+    
+    
+    
+    .body3{
+        width: 90vw;
+        height: 32vh;
+        position: relative;
+        left: 5vw;
+        top: 18vh;
+        background-color: white;
+        border-radius: 30px;
+        display: grid;   
+        transition-property: background-color;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    .body3:hover{
+        background-color: bisque;
+    }
+    
+    .education{
+        position: relative;
+        left: 5vw;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2em;
+        top: 3vh;
+    }
+    
+    .educationcontent1{
+        font-family: 'Lora', serif;
+        font-size: 1.3em;
+        position: relative;
+        left: 3vw;
+        top: 7.5vh;
+    }
+    
+    .educationcontent2{
+        font-family: 'Lora', serif;
+        font-size: 1.3em;
+        position: relative;
+        left: 3vw;
+        top: 11.3vh;
+    }
+    
+    .github{
+        position: relative;
+        top: 32vh;
+        left: 13vw;
+    }
+    
+    .insta{
+        position: relative;
+        top: 176px;
+        left: 26vw;
+    }
+    
+    .linkedin{
+        position: relative;
+        top: 88px;
+        left: 43vw;
+    }
+    
+    .fb{
+        position: relative;
+        top: -15px;
+        left: 58vw;
+    }
+    
+    .copyright{
+        width: 90vw;
+        height: 5vh;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: -2vh; 
+    }
+    
+}
